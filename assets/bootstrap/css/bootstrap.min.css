@@ -1143,11 +1143,12 @@ figure {
 img {
     vertical-align: middle;
     height: 230px;
+    /* width: 100%; */
 }
 
 .logo-home {
-    width: 100px;
-    height: 300px;
+    width: 250px;
+    height: 10;
 }
 
 .img-responsive,.thumbnail>img,.thumbnail a>img,.carousel-inner>.item>img,.carousel-inner>.item>a>img {
