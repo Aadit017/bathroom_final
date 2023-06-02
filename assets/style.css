@@ -7,6 +7,15 @@ body {	color:#ffffff;	font:300 15px/15px Roboto,Arial,Helvetica;
 	font-family: 'Ubuntu';
 	/* color: #111; */
 }
+body::-webkit-scrollbar {
+	width: 0.8rem;
+	}
+	body::-webkit-scrollbar-track {
+	background: #111;
+	}
+	body::-webkit-scrollbar-thumb {
+	background: #606060;
+	}
 
 a{color:#dedede; text-decoration:none;}
 a:hover{color:#9f3f3f;}
@@ -75,8 +84,10 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .testimonails span{color: #888;}
 .testimonails span b{font-weight: 400;}
 .carousel-indicators li{border: 1px solid  rgb(220 22 22 / 50%);}
-.carousel-indicators{bottom: 0;}
-
+.carousel-indicators {
+    bottom: 0;
+    opacity: 0;
+}
 /*works*/
 #works{padding-top:6em;}
 #works figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
@@ -216,7 +227,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	width: 100%;
 	transition: transform 1s;
   }
-  
+
   img:hover {
 	transform: translateZ(35px);
   }
